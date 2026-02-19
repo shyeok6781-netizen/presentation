@@ -6,3 +6,4 @@ conflict test: branch-b
 
 conflict test: merge-conflict-error
 
+no branch because of detached head
