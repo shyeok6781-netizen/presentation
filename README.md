@@ -6,3 +6,4 @@ conflict test: branch-b
 
 conflict test: merge-conflict-error
 
+detached head_1
