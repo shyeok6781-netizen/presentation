@@ -1,4 +1,3 @@
-echo "
 name: CI Test
 
 on: [push]
@@ -7,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - run: echo 'GitHub Actions CI/CD Test!'
-" > .github/workflows/ci.yml
+      - uses: actions/checkout@v2
+      - run: echo 'GitHub Actions CI/CD Test!'
+
